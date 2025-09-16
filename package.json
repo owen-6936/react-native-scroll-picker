@@ -1,0 +1,66 @@
+{
+  "name": "react-native-scroll-picker",
+  "version": "1.0.0",
+  "description": "iOS-style scroll picker for React Native with snapping, fading, and ref access",
+  "keywords": [
+    "react-native",
+    "scroll-picker",
+    "picker",
+    "ios-style",
+    "snap-to-item",
+    "react-native-component",
+    "typescript",
+    "mobile-ui",
+    "ref-access",
+    "expo-compatible",
+    "native-scroll",
+    "touchable-picker",
+    "react-native-scroll",
+    "react-native-ui",
+    "react-native-library"
+  ],
+  "homepage": "https://github.com/owen-6936/react-native-scroll-picker#readme",
+  "bugs": {
+    "url": "https://github.com/owen-6936/react-native-scroll-picker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owen-6936/react-native-scroll-picker.git"
+  },
+  "license": "MIT",
+  "author": "Owen Erhabor",
+  "type": "module",
+  "main": "dist/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watchAll",
+    "lint": "eslint .",
+    "format": "prettier --write \"packages/scroll-picker/src/**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-native": "^0.81.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^13.3.3",
+    "@types/react": "^19.1.13",
+    "@types/react-native": "^0.72.8",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-config-turbo": "^2.5.6",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-native": "^5.0.0",
+    "jest": "^30.1.3",
+    "jest-expo": "^54.0.11",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.6",
+    "typescript": "^5.9.2"
+  }
+}
